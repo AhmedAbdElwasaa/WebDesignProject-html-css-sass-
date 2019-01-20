@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    position: fixed;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: row;
+    background-color:#EDF1FD;
+    height: 4rem;
+    padding-top: 0.0469rem;
+    padding-left: 2.0703rem;
+    width: 100%;
+    z-index:100;
+    .logo {
+        padding-right: 5.4rem;
+    }
+    .ulmenu {
+        width: 40.6875rem;
+        padding-left: 4rem;
+        padding-top: 1.5rem;
+        padding-bottom: 0rem;
+    }
+    .search-container {
+    padding-top: .9rem;
+    }
+    .langlink {
+        padding-top: 2rem;
+    }
+}

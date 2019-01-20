@@ -1,0 +1,71 @@
+.section-about
+{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    background-color: #EDF1FD;
+.textwimage
+{
+    display: flex;
+    justify-content:left;
+    align-items: flex-start;
+    flex-direction: column;
+    &__ifont
+    {
+        display: flex;
+        font-weight:lighter;
+        font-size: 14px;
+        padding-left: .2rem;
+        padding-top: .5rem;
+    }
+    &__sphead
+    {
+        position: absolute;
+        display: flex;
+        text-transform: uppercase;
+        font-size:14px;
+        padding-left: 4.2rem;
+        padding-top: .6rem;
+    }
+
+    &__h2name
+    {
+        display: flex;
+        color:#3E4455;
+        font-size: 63px;
+        font-weight: bolder;
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+        padding-top: 0rem;
+        margin-bottom: 0;
+        .pname
+        {
+            color:#FF023E;
+            font-size: 63px;
+            margin-left: 1.2rem;
+            margin-right: 1.2rem;
+            margin-top: 0rem;
+            margin-bottom: 0rem;
+        }
+    }
+
+    &__pdetails
+    {
+        display: flex;
+        width:36.3rem;
+        padding-left: .2rem;
+        font-size:16px;
+        line-height: 2rem;
+
+    }
+
+    &__pimage
+    {
+      background-image: url(../images/hero-image-2.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 63%;
+      height: 49.933rem;
+    }
+}
+}

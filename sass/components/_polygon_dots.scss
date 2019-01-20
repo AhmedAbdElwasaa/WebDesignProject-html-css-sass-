@@ -1,0 +1,124 @@
+.polygon-dots
+{
+display:flex;
+justify-content: center;
+align-items: center;
+&__pnum1
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: .6rem;
+    height: .6rem;
+    background-color: white;
+    border:0 hidden transparent;
+    border-radius: 50%;
+    margin-right: 2rem;
+    &:focus
+    {
+        outline: transparent;
+    }
+    
+}
+&__pnum2
+{
+    position: absolute;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: .6rem; 
+    height: .6rem;
+    background-color: #3E4455;
+    border:0 hidden transparent;
+    border-radius: 50%;
+    margin-left: -2rem;
+    &:focus
+    {
+        outline: transparent;
+    }
+    &:hover
+    {
+        border-radius: 2.7rem 2.7rem 2.7rem 2.7rem;
+        width:2rem;
+    cursor: pointer;
+    }
+}
+&__pnum3
+{
+    display:flex;
+justify-content: center;
+align-items: center;
+width: 2rem;
+height: .6rem;
+border:0 hidden transparent;
+background-color: white;
+border-radius: 50%;
+margin-right: 2.7rem;
+&:focus
+{
+    outline: transparent;
+}
+
+}
+&__pnum4
+{
+    position: absolute;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: .6rem;
+    height: .6rem;
+    background-color: #3E4455;
+    border:0 hidden transparent;
+    border-radius: 50%;
+    &:focus
+    {
+        outline: transparent;
+    }
+    &:hover
+    {
+        border-radius: 2.7rem 2.7rem 2.7rem 2.7rem;
+        width:2rem;
+        cursor: pointer;
+    }
+}
+&__pnum5
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: .6rem;
+    border:0 hidden transparent;
+    background-color:white;
+    border-radius: 50%;
+    margin-right: 3rem;
+    &:focus
+{
+    outline: transparent;
+}
+}
+&__pnum6
+{
+    position: absolute;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: .6rem;
+    height: .6rem;
+    background-color: #3E4455;
+    border:0 hidden transparent;
+    border-radius: 50%;
+    margin-left: 2.1rem;
+    &:focus
+    {
+        outline: transparent;
+    }
+    &:hover
+    {
+        border-radius: 2.7rem 2.7rem 2.7rem 2.7rem;
+        width:2rem;
+        cursor: pointer;
+    }
+}
+}

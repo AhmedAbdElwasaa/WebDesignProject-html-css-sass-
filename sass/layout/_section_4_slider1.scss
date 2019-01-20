@@ -1,0 +1,26 @@
+.section-4-slider1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #F7F9FF;
+    height: 20rem;
+    width: 100%;
+    &__slid1-col1 {
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        padding-right: 3.5rem;
+    }
+    &__slid1-col2 {
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        padding-right: 3.5rem;
+    }
+    &__slid1-col3 {
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        padding-right: 3.5rem;
+    }
+}

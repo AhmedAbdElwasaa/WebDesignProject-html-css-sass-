@@ -1,0 +1,111 @@
+.section-8-image-slider
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 62rem;
+    width: 100%;
+    &__col1
+    {
+        display:flex;
+        flex-direction: column;
+        margin-right: 2.5rem;
+      &__cell1
+      {
+          display: flex;
+          flex-direction: column;
+        
+        }
+
+        &__cell2
+        {
+            display: flex;
+            flex-direction: column;
+            .blockimage
+            {
+           background-image: url(../images/single-project-item-bg-4-3.jpg);
+            height: 15.5rem;
+  
+            &__smallblock {
+              height: 13.2rem;
+            }
+            }
+        }
+
+    }
+    &__col2
+    {
+        display:flex;
+        flex-direction:column-reverse;
+        margin-right: 2.5rem;
+      &__cell1
+      {
+          display: flex;
+          flex-direction: column;
+          .blockimage
+            {
+           background-image: url(../images/single-project-item-bg-2-3.jpg);
+           background-size: cover;
+           height: 29rem;
+  
+            &__smallblock {
+                height: 26.2rem;
+            }
+            }
+        }
+
+        &__cell2
+        {
+            display: flex;
+            flex-direction:column;
+            .blockimage
+            {
+           background-image: url(../images/single-project-item-bg-3-3.jpg);
+           background-size: cover;
+            height: 15.5rem;
+  
+            &__smallblock {
+              height: 13.2rem;
+            }
+            }
+        }
+    }
+    &__col3
+    {
+        display:flex;
+        flex-direction: column;
+      &__cell1
+      {
+          display: flex;
+          flex-direction: column;
+          .blockimage
+            {
+           background-image: url(../images/single-project-item-bg-5-3.jpg);
+           background-size: cover;
+           height: 29rem;
+  
+            &__smallblock {
+                height: 26.2rem;
+            }
+            }
+        
+        }
+
+        &__cell2
+        {
+            display: flex;
+            flex-direction: column;
+            .blockimage
+            {
+           background-image: url(../images/single-project-item-bg-8-3.jpg);
+           background-size: cover;
+            height: 15.5rem;
+  
+            &__smallblock {
+              height: 13.2rem;
+            }
+            }
+        }
+
+    }
+}

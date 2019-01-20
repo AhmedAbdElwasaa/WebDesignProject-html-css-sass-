@@ -1,0 +1,104 @@
+.section-2-pro {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    height: 26.5rem;
+    width: 100%;
+    &__titlemain {
+        display: flex;
+        justify-content: left;
+        align-content: flex-start;
+        padding-left: 0rem;
+        padding-top: 2rem;
+    }
+    &__left-side {
+        display: flex;
+        justify-content: left;
+        align-content: flex-start;
+        flex-direction: column;
+        &__btn-progress-1 {
+            display: flex;
+            justify-content: left;
+            align-content: flex-start;
+            padding-left: 6rem;
+            padding-top: 3rem;
+        }
+        &__btn-progress-2 {
+            display: flex;
+            justify-content: left;
+            align-content: flex-start;
+            position: absolute;
+            margin-top: 18rem;
+            margin-left: 6rem;
+            .left-side__btn-progress-2__progress-colored2 {
+                animation: progressbar2 5s 1;
+                animation-timing-function: linear;
+                width: 20rem;
+            }
+            .left-side__btn-progress-2__progress-container2:focus {
+                outline: transparent auto 0px;
+            }
+            .left-side__btn-progress-2__progress-colored2:focus {
+                outline: transparent auto 0px;
+            }
+            @keyframes progressbar2 {
+                from {
+                    background-color: transparent;
+                    width: 0rem;
+                }
+                to {
+                    background-color: #3E4455;
+                    width: 20rem;
+                }
+            }
+        }
+    
+    }
+    
+    &__right-side {
+        display: flex;
+        justify-content: left;
+        align-content: flex-start;
+        flex-direction: column;
+        &__btn-progress-1 {
+            display: flex;
+            justify-content: left;
+            align-content: flex-start;
+            padding-left: 6rem;
+            padding-top: 3rem;
+        }
+        &__btn-progress-3 {
+            display: flex;
+            justify-content: left;
+            align-content: flex-start;
+            position: absolute;
+            margin-top: 18rem;
+            margin-left: 6rem;
+            .right-side__btn-progress-3__progress-colored3 {
+                animation: progressbar3 5s 1;
+                animation-timing-function: linear;
+                width: 18rem;
+            }
+            .right-side__btn-progress-3__progress-colored3:focus {
+                outline: transparent auto 0px;
+            }
+            .right-side__btn-progress-3__progress-container3:focus {
+                outline: transparent auto 0px;
+            }
+            @keyframes progressbar3 {
+                from {
+                    background-color: transparent;
+                    width: 0rem;
+                }
+                to {
+                    background-color: #3E4455;
+                    width: 18rem;
+                }
+            }
+        }
+        
+    }
+    
+   
+   
+}

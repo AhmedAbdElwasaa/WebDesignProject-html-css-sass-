@@ -1,0 +1,41 @@
+.langlink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-basis: content;
+    color: #3E4455;
+    text-transform: uppercase;
+    position: relative;
+    &__arb {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 1.5rem;
+        &:hover {
+            color: red;
+            text-decoration-line: underline;
+        }
+    }
+    &__eng {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 1.5rem;
+        &:hover {
+            color: red;
+            text-decoration-line: underline;
+        }
+    }
+    &__fra {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 1.5rem;
+      
+        &:hover {
+            color: red;
+            text-decoration-line: underline;
+        }
+    }
+}

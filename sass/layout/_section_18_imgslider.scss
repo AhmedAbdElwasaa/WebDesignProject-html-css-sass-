@@ -1,0 +1,73 @@
+.section-18-image-slider
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40rem;
+    width: 100%;
+    &__iscol1
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        &__cell1
+        {
+            display: flex;
+        }
+        &__cell2
+        {
+            display: flex;
+            .wimage__bgimage
+            {
+                background-image: url(../images/2.jpg);
+            }
+        }
+    }
+    &__iscol2
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        &__cell1
+        {
+            display: flex;
+            .wimage__bgimage
+            {
+                background-image: url(../images/3.jpg);
+            }
+        }
+        &__cell2
+        {
+            display: flex;
+            .wimage__bgimage
+            {
+                background-image: url(../images/4.jpg);
+            }
+        }
+    }
+    &__iscol3
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        &__cell1
+        {
+            display: flex;
+            .wimage__bgimage
+            {
+                background-image: url(../images/5.jpg);
+            }
+        }
+        &__cell2
+        {
+            display: flex;
+            .wimage__bgimage
+            {
+                background-image: url(../images/6.jpg);
+            }
+        }
+    }
+}

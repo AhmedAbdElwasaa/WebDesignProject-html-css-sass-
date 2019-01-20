@@ -1,0 +1,161 @@
+.section-11-edu-exp
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color:#F7F9FF ;
+    height: 65rem;
+    width: 100%;
+    &__leftside
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 7rem;
+        &__cell-0
+        {
+            display:flex;
+            justify-content: center;
+            align-content: center;
+            flex-direction: row;
+            color:#3E4455;
+            &__ifa-0
+            {
+                display:flex;
+                justify-content: center;
+                align-content: center;
+                font-size: 3rem;
+                margin-top: 2rem;
+                margin-right: 1.5rem;
+            }
+            &__h2head
+            {
+                display:flex;
+                justify-content: center;
+                align-content: center;
+                color:#3E4455;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: bold;
+            }
+        }
+        &__cell-1
+        {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            margin-bottom: 2rem;
+
+            .txtblock-2__h3txt
+            {
+                position: static;
+                margin-left: 0rem;
+                margin-top: 0rem;
+                margin-bottom: 0;
+            }
+            .txtblock-2__ptxt
+            {
+                margin-bottom: 0rem;
+                margin-top:0rem;
+            }
+        }
+        &__cell-2
+        {
+            display: flex;
+            justify-content: left;
+            align-items:center;
+            margin-bottom: 2rem;
+            .txtblock-2__h3txt
+            {
+                position: static;
+                margin-left: 0rem;
+                margin-top: 0rem;
+                margin-bottom: 0;
+            }
+            .txtblock-2__ptxt
+            {
+                margin-bottom: 0rem;
+                margin-top:0rem;
+            }
+        }
+        &__cell-3
+        {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            margin-bottom: 2rem;
+            .txtblock-2__h3txt
+            {
+                position: static;
+                margin-left: 0rem;
+                margin-top: 0rem;
+                margin-bottom: 0;
+            }
+            .txtblock-2__ptxt
+            {
+                margin-bottom: 0rem;
+                margin-top:0rem;
+            }
+        }
+    }
+    &__rightside
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      
+        &__cell-0
+        {
+            display:flex;
+            justify-content: center;
+            align-content: center;
+            flex-direction: row;
+            color:#3E4455;
+            &__ifa-0
+            {
+                display:flex;
+                justify-content: center;
+                align-content: center;
+                font-size: 3rem;
+                margin-top: 2rem;
+                margin-right: 1.5rem;
+            }
+            &__h2head
+            {
+                display:flex;
+                justify-content: center;
+                align-content: center;
+                color:#3E4455;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: bold;
+            }
+        }
+        &__cell-1
+        {
+            display: flex;
+            justify-content: left;
+            align-items: flex-start;
+            margin-bottom: 2rem;
+
+        }
+        &__cell-2
+        {
+            display: flex;
+            justify-content: left;
+            align-items: flex-start;
+            margin-bottom: 2rem;
+
+
+        }
+        &__cell-3
+        {
+            display: flex;
+            justify-content: left;
+            align-items: flex-start;
+            margin-bottom: 2rem;
+
+        }
+    }
+}

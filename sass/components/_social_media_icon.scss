@@ -1,0 +1,76 @@
+.social-media
+{
+    display: flex;
+    justify-content: center;
+    justify-items: left;
+    align-items: center;
+   
+    &__tw
+    {
+        display: flex;
+        justify-content: center;
+        justify-items: left;
+        padding-right: 1rem;
+        color:#3E4455;
+    cursor: pointer;
+
+        &:hover
+        {
+            color:#FF023E;
+        }
+    }
+    &__inst
+    {
+        display: flex;
+        justify-content: center;
+        justify-items: left;
+        padding-right: 1rem;
+        color:#3E4455;
+    cursor: pointer;
+
+        &:hover
+        {
+            color:#FF023E;
+        }
+    }
+    &__facb
+    {
+        display: flex;
+        justify-content: center;
+        justify-items: left;
+        padding-right: 1rem;
+        color:#3E4455;
+    cursor: pointer;
+
+        &:hover
+        {
+            color:#FF023E;
+        }
+    }
+    &__drib
+    {
+        display: flex;
+        justify-content: center;
+        justify-items: left;
+        padding-right: 1rem;
+        color:#3E4455;
+    cursor: pointer;
+
+        &:hover
+        {
+            color:#FF023E;
+        }
+    }
+   &__qura
+   {
+    display: flex;
+    justify-content: center;
+    justify-items: left;
+    color:#3E4455;
+    cursor: pointer;
+    &:hover
+    {
+        color:#FF023E;
+    }
+   }
+}

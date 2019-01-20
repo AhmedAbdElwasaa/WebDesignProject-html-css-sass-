@@ -1,0 +1,87 @@
+.section-16-carousel
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    &__ccol1
+    {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 8rem;
+        animation: carouselcol1 5s infinite ;
+        animation-timing-function: linear;
+        &:hover{
+            animation-name: image-zoom;
+        animation-duration: 5s;
+        animation-delay: 0.1s;
+      transform: scale(1.5); 
+        }
+    }
+
+
+        @keyframes image-zoom {
+            0% {
+                opacity: 0;
+                transform: perspective(200px) (20px) 
+                ;
+            }
+            100% {
+                opacity: 1;
+                transform: perspective(200px) translatex(0)
+                ;
+            }
+        }
+    &__ccol2
+    {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 8rem;
+        .carousel__img
+    {
+        background-image: url(../images/4.png);
+    }
+    &:hover{
+        animation-name: image-zoom;
+    animation-duration: 5s;
+    animation-delay: 0.1s;
+  transform:scale(1.5); 
+    }
+    }
+    &__ccol3
+    {
+        display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8rem;
+    &:hover{
+        animation-name: image-zoom;
+    animation-duration: 5s;
+    animation-delay: 0.1s;
+  transform:scale(1.5); 
+    }
+
+    }
+    &__ccol4
+    {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        .carousel__img
+    {
+        background-image: url(../images/3.png);
+    }
+    &:hover{
+        animation-name: image-zoom;
+    animation-duration: 5s;
+    animation-delay: 0.1s;
+  transform:scale(1.5); 
+    }
+    }
+/*     @keyframes carouselcol1 {
+        from  { right:0rem;}
+        to  {left: 23rem;}
+       } */
+}

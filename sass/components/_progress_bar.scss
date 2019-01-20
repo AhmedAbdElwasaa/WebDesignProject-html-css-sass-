@@ -1,0 +1,55 @@
+.btn-progress-bar
+{
+    margin-top: 100px;
+    display: flex;
+    justify-content: left;
+    &__h5head
+    {
+        display: flex;
+        position: absolute;
+        margin-top: -2rem;
+        .spperc
+        {
+            display: flex;
+            margin-left: 22rem;
+            margin-top: 0rem;
+        }
+    }
+    &__progress-container
+    {
+        display: flex;
+        justify-content: left;
+        background-color: #DBE1F1;
+        width: 24.5rem;
+        height: 0.5rem;
+        border-radius: 10px;
+        border-color: transparent;
+        border-style: none;
+        
+    }
+    .btn-progress-bar__progress-container:focus {
+        outline: transparent auto 0px;
+    }
+    &__progress-colored
+    {
+        animation: progressbar 5s 1;
+        animation-timing-function: linear;
+        display: flex;
+        justify-content: left;
+        position: absolute;
+        background-color: #3E4455;
+        height: 0.5rem;
+        border-radius: 10px;
+        border-color: transparent;
+        border-style: none;
+        width: 23rem;
+    }
+    .btn-progress-bar__progress-colored:focus {
+        outline: transparent auto 0px;
+    }
+
+    @keyframes progressbar {
+       from  {background-color:transparent; width:0rem;}
+       to  {background-color: #3E4455;width: 23rem;}
+      }
+}

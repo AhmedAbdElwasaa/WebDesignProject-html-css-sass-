@@ -1,0 +1,36 @@
+.section-13-slider2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    width:100%;
+    &__cell1
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 2rem;
+    }
+    &__cell2
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 2rem;
+        .card-details__info--imgradius
+        {
+            background-image: url(../images/comment-2.png);
+        }
+    }
+    &__cell3
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .card-details__info--imgradius
+        {
+            background-image: url(../images/review-img.png);
+        }
+    }
+}

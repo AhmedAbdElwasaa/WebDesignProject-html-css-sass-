@@ -1,0 +1,75 @@
+.section-1 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: row;
+    height: 36rem;
+    &__pimg {
+        display: flex;
+        justify-content: left;
+        background-image: url(../images/man-2.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 36rem;
+        width: 27rem;
+    }
+    &__ptxt {
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        flex-direction: column;
+        width: 37.25rem;
+        padding-left: 3rem;
+        height: 36rem;
+        .spline {
+            margin-top: .5rem;
+            font-weight: bolder;
+            font-size: 1.5rem;
+        }
+        .h2about {
+            position: absolute;
+            color:#3E4455;
+            margin-top: .5rem;
+            margin-left: 4rem;
+            font-weight: bold;
+        }
+        .p1about {
+            font-size:16px;
+            line-height: 2rem;
+            padding-top: 0rem;
+        }
+        .p2about {
+            font-size:16px;
+            line-height: 2rem;
+            margin-top: 2rem;
+        }
+        .p1img
+        {
+            background-image: url(../images/logo-2.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 5rem;
+           height: 30.2rem;
+            margin-left: 3rem;
+            margin-top: 1.5rem;
+        }
+    
+        .btn--primary
+        {
+            margin-top: 3rem;
+            margin-left: 3rem;
+            margin-bottom: -.3rem;
+            height:6.5rem;
+        }
+        .btn--secondary
+        {
+            position: absolute;
+            margin-top: 29.5rem;
+            margin-left: 21rem;
+            width: 4rem;
+            height: 0.8rem;
+            
+        }
+    }
+    
+}

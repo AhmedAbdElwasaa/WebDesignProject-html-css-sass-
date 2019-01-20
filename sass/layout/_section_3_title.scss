@@ -1,0 +1,12 @@
+.section-3-title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F7F9FF;
+    .section-title
+    {
+        display: flex;
+    }
+}
